@@ -5,13 +5,13 @@ StaticPages::Application.routes.draw do
   match "/homework2" => "static_pages#homework2"
   match "/homework3" => "static_pages#homework3"
   
-  get "static_pages/index"
+  #get "static_pages/index"
 
-  get "static_pages/homework"
+  #get "static_pages/homework"
 
-  get "static_pages/homework2"
+  #get "static_pages/homework2"
 
-  get "static_pages/homework3"
+  #get "static_pages/homework3"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
