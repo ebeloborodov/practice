@@ -1,5 +1,10 @@
 StaticPages::Application.routes.draw do
-
+  root :to => 'static_pages#index'
+  
+  match "/homework" => "static_pages#homework"
+  match "/homework2" => "static_pages#homework2"
+  match "/homework3" => "static_pages#homework3"
+  
   get "static_pages/index"
 
   get "static_pages/homework"
